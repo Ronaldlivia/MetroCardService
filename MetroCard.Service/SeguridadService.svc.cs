@@ -32,7 +32,7 @@ namespace MetroCard.Service
 
                 if (idUsuario == 0)
                 {
-                    objUsuarioResponse.Mensaje = "El usuario no existe.";
+                    objUsuarioResponse.Mensaje = "El usuario indicado no existe.";
                     return objUsuarioResponse;
                 }
                 else
