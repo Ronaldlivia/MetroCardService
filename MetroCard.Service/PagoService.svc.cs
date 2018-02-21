@@ -84,7 +84,7 @@ namespace MetroCard.Service
                 }
                 else
                 {
-                    objTarjetaResponse.Mensaje = "Se realizó la recarga.";
+                    objTarjetaResponse.Mensaje = "Se realizó la recarga de la Tarjeta.";
                     objTarjetaResponse.EsValido = true;
                     return objTarjetaResponse;
                 }
