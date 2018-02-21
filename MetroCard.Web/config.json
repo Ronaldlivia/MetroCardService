@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "MetroCard.Web"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-MetroCard.Web-55d875cb-714d-4d54-8a3a-20d3bc79b73c;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}

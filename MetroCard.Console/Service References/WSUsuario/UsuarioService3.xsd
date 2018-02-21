@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/MetroCard.Service.Response" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/MetroCard.Service.Response" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:25195/UsuarioService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/MetroCard.Service.Dominio" />
+  <xs:complexType name="UsuarioResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EsValido" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IdUsuario" type="xs:int" />
+      <xs:element minOccurs="0" name="Mensaje" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/MetroCard.Service.Dominio" minOccurs="0" name="Usuario" nillable="true" type="q1:Usuario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UsuarioResponse" nillable="true" type="tns:UsuarioResponse" />
+</xs:schema>

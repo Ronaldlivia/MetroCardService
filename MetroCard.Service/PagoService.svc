@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="MetroCard.Service.PagoService" CodeBehind="PagoService.svc.cs" %>
